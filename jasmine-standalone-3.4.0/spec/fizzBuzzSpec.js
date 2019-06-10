@@ -10,6 +10,12 @@ describe("FizzBuzz", function() {
       expect(fizzBuzz.play(3)).toEqual('fizz');
   });
 
+  it("should return \"buzz\" when passed 5", function() {
+    expect(fizzBuzz.play(5)).toEqual('buzz');
+});
+
+  
+
 });
 
 
